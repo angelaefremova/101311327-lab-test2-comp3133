@@ -1,0 +1,7 @@
+<div class="info" *ngIf="selectedMission">
+  <h2>{{ selectedMission.mission_name }}</h2>
+  <img [src]="selectedMission.links.mission_patch_small" />
+  <p><strong>Launch Year:</strong> {{ selectedMission.launch_year }}</p>
+  <p><strong>Launch Details:</strong> {{ selectedMission.details }}</p>
+  <p><strong>Mission Patch:</strong></p>
+</div>
