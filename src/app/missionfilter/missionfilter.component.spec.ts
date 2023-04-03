@@ -1,22 +1,22 @@
-// import { ComponentFixture, TestBed } from '@angular/core/testing';
-// import { MissionfilterComponent } from './missionfilter.component';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MissionfilterComponent } from './missionfilter.component';
 
-// describe('MissionfilterComponent', () => {
-//   let component: MissionfilterComponent;
-//   let fixture: ComponentFixture<MissionfilterComponent>;
+describe('MissionfilterComponent', () => {
+  let component: MissionfilterComponent;
+  let fixture: ComponentFixture<MissionfilterComponent>;
 
-//   beforeEach(async () => {
-//     await TestBed.configureTestingModule({
-//       declarations: [ MissionfilterComponent ]
-//     })
-//     .compileComponents();
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ MissionfilterComponent ]
+    })
+    .compileComponents();
 
-//     fixture = TestBed.createComponent(MissionfilterComponent);
-//     component = fixture.componentInstance;
-//     fixture.detectChanges();
-//   });
+    fixture = TestBed.createComponent(MissionfilterComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
 
-//   it('should create', () => {
-//     expect(component).toBeTruthy();
-//   });
-// });
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
