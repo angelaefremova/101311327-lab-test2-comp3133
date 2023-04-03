@@ -5,14 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { MissionlistComponent } from './missionlist/missionlist.component';
 import { MissiondetailsComponent } from './missiondetails/missiondetails.component';
-//import { MissionfilterComponent } from './missionfilter/missionfilter.component';
+import { MissionfilterComponent } from './missionfilter/missionfilter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MissionlistComponent,
     MissiondetailsComponent,
- //   MissionfilterComponent
+    MissionfilterComponent
   ],
   imports: [
     BrowserModule,
